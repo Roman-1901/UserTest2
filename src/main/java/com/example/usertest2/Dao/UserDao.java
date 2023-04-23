@@ -7,11 +7,8 @@ import java.util.List;
 public interface UserDao {
 
 
- //   void add();
-
     User getUserByName(String name);
 
     List<User> findAllUsers();
-
 
 }
