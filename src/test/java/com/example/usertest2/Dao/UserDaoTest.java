@@ -19,6 +19,7 @@ class UserDaoTest {
 
     @Test
     public void showUserNUll() {
+        name = "Петр";
         Assertions.assertNull(userDao.getUserByName(name));
         Assertions.assertEquals(null, userDao.getUserByName(name));
     }
